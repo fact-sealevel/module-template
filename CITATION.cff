@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+
+# This is an example CITATION.cff. Please update both the software citation
+# information and any associated publication.
+
+message: >
+  If you use this software, please cite both the software itself and the
+  associated peer-reviewed publication.
+
+title: "FACTS Module Template"
+# version: "1.0.0"
+# doi: "10.5281/zenodo.1234567"
+date-released: 2026-11-18
+repository-code: "https://github.com/fact-sealevel/module-template"
+license: "MIT"
+
+authors:
+  - family-names: Marshall
+    given-names: Emma
+    orcid: "https://orcid.org/0000-0001-6348-977X"
+  - family-names: McCusker
+    given-names: Kelly
+    orcid: "https://orcid.org/0000-0001-5914-0559"
+
+
+preferred-citation:
+  title: "The Framework for Assessing Changes To Sea-Level (FACTS) v1.0: A platform for characterizing parametric and structural uncertainty in future global, relative, and extreme sea-level change"
+  type: article
+  journal: "Geoscientific Model Development"
+  volume: 16
+  start: 7461
+  end: 7489
+  authors:
+  - family-names: "Kopp"
+    given-names: "Robert E."
+    orcid: "https://orcid.org/0000-0003-4016-9428"
+  - family-names: "Garner"
+    given-names: "Gregory G."
+    orcid: "https://orcid.org/0000-0001-7864-1535"
+  - family-names: "Hermans"
+    given-names: "Tim H. J."
+  - family-names: "Jha"
+    given-names: "Shantenu"
+  - family-names: "Kumar"
+    given-names: "Praveen"
+  - family-names: "Reedy"
+    given-names: "Alexander"
+  - family-names: "Slangen"
+    given-names: "Aimée B. A."
+  - family-names: "Turilli"
+    given-names: "Matteo"
+  - family-names: "Edwards"
+    given-names: "Tamsin L."
+  - family-names: "Gregory"
+    given-names: "Jonathan M."
+  - family-names: "Koubbe"
+    given-names: "George"
+  - family-names: "Levermann"
+    given-names: "Anders"
+  - family-names: "Merzky"
+    given-names: "Andre"
+  - family-names: "Nowicki"
+    given-names: "Sophie"
+  - family-names: "Palmer"
+    given-names: "Matthew D."
+  - family-names: "Smith"
+    given-names: "Chris"
+  year: 2023
+  doi: 10.5194/gmd-16-7461-2023
+  date-released: 2023-12-21
+
+keywords:
+  - sea-level rise
+  - modeling
+
+abstract: >
+  This repository is a starting point for a FACTS2 module. It has everything necessary to run a module in the FACTS2 framework except the actual science, which will be added by the module developer. If you are developing a FACTS2 module in Python, we recommend creating a repository for your module based off of this template.
